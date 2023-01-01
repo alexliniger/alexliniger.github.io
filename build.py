@@ -1,37 +1,28 @@
 from pybtex.database.input import bibtex
 
 def get_personal_data():
-    name = ["Michael", "Niemeyer"]
-    email = "micniemeyer1@gmail.com"
-    twitter = "Mi_Niemeyer"
-    github = "m-niemeyer"
-    linkedin = "michael-niemeyer"
+    name = ["Alexander", "Liniger"]
+    email = "alexliniger@gmail.com"
+    twitter = "alexliniger"
+    github = "alexliniger"
+    linkedin = "alexander-liniger"
     bio_text = f"""
-                <p>I am a machine learning and computer vision PhD student in the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">AVG group</a> at the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">Max Planck Insitute for Intelligent Systems</a>.
-                <span style="color: red;">I will finish my PhD at the end of 2022 and I am looking for research scientist positions, preferribly in Germany (Cologne, Stuttgart, Berlin, etc)!</span>
+                <p>I am a principal researcher at the Huawei Research Center in Zurich, working on machine learning and computer vision.
+                </p>
+
                 <p>
                     <span style="font-weight: bold;">Research:</span>
-                    I am excited about complex problems that can be tackled with learning-based systems. Currently, my research focuses on 3D vision, and I am interested in how machines can infer 3D representations from sparse observations. Further, I am big fan of neural scene representations, \ie, how scenes are best represented in learning-based systems using deep neural networks. 
+                    My research focuses on the intersection of computer vision, machine learning, and control theory. On one side, I am interested in representations that enable the efficient combination of scene understanding and decision-making algorithms. These can vary from bird's eye view scene and map understanding in autonomous driving to using NeRFs for active 3D reconstruction. On the other side, I am interested in learning safe multi-agent policies directly from data, using principles from control and game theory to guide the learning process. Such methods can, for example, directly learn driving policies from human driving data and can be used for motion prediction, interactive motion planning, or data-driven simulation. The combination of better representations and policy learning will allow us to develop models that pave the path for truly autonomous robotic systems.
                 </p>
                 <p>
                     <span style="font-weight: bold;">Bio:</span>
-                    I studied BSc Mathematics at the <a href="http://www.mi.uni-koeln.de/main/index.en.php" target="_blank">University of Cologne</a>, Germany. During my Bachelor studies, I spent one year at the <a href="https://www.ub.edu/web/portal/en/" target="_blank">University of Barcelona</a>, Spain, funded by the ERASMUS program.
-                    Following my interest in computer science, I then moved to Scotland to gain my Master's degree in Advanced Computer Science at the <a href="https://www.st-andrews.ac.uk/computer-science/" target="_blank">University of St Andrews</a>.
-                    In October 2018, I started my PhD in computer vision / machine learning in the <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/home/" target="_blank">AVG group</a> at the <a href ="https://is.mpg.de/" target="_blank">Max Planck Institute for Intelligent Systems</a> in Tübingen, Germany, under the supervision of <a href="http://cvlibs.net/" target="_blank">Andreas Geiger</a>. 
-                    In 2021 I joined <a href="https://research.google/teams/brain/">Google Brain</a> for an internship and subsequently as a student researcher.
+                    I studied Mechanical Engineering at ETH Zurich, where I got my BSc and MSc in 2010 and 2013 respectively. In 2013 I started my PhD at the Automatic Control Lab at ETH Zurich under the supervision of John Lygeros, where I was working on safe and game theoretic motion planning for autonomous driving and autonomous racing. After finishing my PhD in 2018, I first worked as a PostDoc at the Automatic Control Lab before joining the Computer Vision Lab (CVL) at ETH Zurich in Luc Van Gool's group in 2019. During my time at CVL, I was working within the TRACE Toyota autonomous driving project, focusing on scene understanding for autonomous driving as well as imitation and reinforcement learning. During my time at CVL, I also started the lecture <a href="https://trace.ethz.ch/teaching/index.html" target="_blank"> Deep Learning for Autonomous Driving </a> together with Dengxin Dai, which we were teaching for three years with great success. In 2021 I joined Zurich Huawei Research as a Principal Researcher. 
                 </p>
                 <p>
-                    <span style="font-weight: bold;">Awards:</span>
-                    In 2011, I graduated as top of my year from secondary school and received <a href="https://www.e-fellows.net/" target="_blank">the e-fellows scholarship</a> and were admitted to <a href="https://www.mathematik.de/" target="_blank">the Germany Mathematics Society</a> and <a href="https://www.dpg-physik.de/" target="_blank">the German Physics Society</a>. In 2017 I received the Dean's List Award for Academic Excellence for my Master's degree.
-                    Since 2018, I am scholar of <a href="https://imprs.is.mpg.de/" target="_blank">the International Max Planck Research School for Intelligent Systems (IMPRS-IS)</a>.
-                    Our two research projects Occupancy Networks and DVR were selected to be <a href="https://www.paperdigest.org/2021/03/most-influential-cvpr-papers-2021-03/" target="_blank">among the top-15 most influencial CVPR papers</a> from 2019 and 2020, respectively.
-                    In 2021, we received the CS teaching award for our <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/computer-vision/" target="_blank">computer vision lecture</a> as well as  <a href="https://cyber-valley.de/en/news/meet-the-ai-gamedev-winners" target="blank">the AIGameDev scientific award</a> for our GRAF project and <a href="https://cvpr2021.thecvf.com/node/329" target="_blank">the CVPR Best Paper Award</a> for GIRAFFE (<a href="https://cyber-valley.de/en/news/best-paper-cvpr-2021" target="_blank">news coverage</a>).
-                </p>
-                <p>
-                    <a href="https://m-niemeyer.github.io/assets/pdf/CV_Niemeyer_Michael.pdf" target="_blank" style="margin-right: 15px"><i class="fa fa-address-card fa-lg"></i> CV</a>
+                    <a href="https://alexliniger.github.io/assets/pdf/CV_Alexander_Liniger.pdf" target="_blank" style="margin-right: 15px"><i class="fa fa-address-card fa-lg"></i> CV</a>
                     <a href="mailto:{email}" style="margin-right: 15px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
                     <a href="https://twitter.com/{twitter}" target="_blank" style="margin-right: 15px"><i class="fab fa-twitter fa-lg"></i> Twitter</a>
-                    <a href="https://scholar.google.com/citations?user=v1O7i_0AAAAJ&hl=en" target="_blank" style="margin-right: 15px"><i class="fa-solid fa-book"></i> Scholar</a>
+                    <a href="https://scholar.google.com/citations?user=amb0lc0AAAAJ&hl=en" target="_blank" style="margin-right: 15px"><i class="fa-solid fa-book"></i> Scholar</a>
                     <a href="https://github.com/{github}" target="_blank" style="margin-right: 15px"><i class="fab fa-github fa-lg"></i> Github</a>
                     <a href="https://www.linkedin.com/in/{linkedin}" target="_blank" style="margin-right: 15px"><i class="fab fa-linkedin fa-lg"></i> LinkedIn</a>
                 </p>
@@ -40,37 +31,16 @@ def get_personal_data():
             <div class="col-sm-12" style="">
                 <h4>Homepage Template</h4>
                 <p>
-                    Feel free to use this website as a template! It is fully responsive and very easy to use and maintain as it uses a python script that crawls your bib files to automatically add the papers and talks. If you find it helpful, please add a link to my website - I will also add a link to yours (if you want). <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">Checkout the github repository for instructions on how to use it</a>. <br>
-                    <a href="https://kashyap7x.github.io/" target="_blank">&#9883;</a>
-                    <a href="https://kait0.github.io/" target="_blank">&#9883;</a>
+                    This homepage is based on the template by <a href="https:m-niemeyer.github.io" target="_blank"> Michael Niemeyer</a>. Checkout his <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank"> github repository</a> for instructions on how to use it. <br>
                 </p>
             </div>
     """
     return name, bio_text, footer
 
 def get_author_dict():
-    return {
-        'Andreas Geiger': 'https://www.cvlibs.net/',
-        'Songyou Peng': 'https://pengsongyou.github.io/',
-        'Zehao Yu': 'https://niujinshuchong.github.io/',
-        'Torsten Sattler': 'https://tsattler.github.io/',
-        'Katja Schwarz': 'https://katjaschwarz.github.io/',
-        'Axel Sauer': 'https://axelsauer.com/',
-        'Jonathan Barron': 'https://jonbarron.info/',
-        'Ben Mildenhall': 'https://bmild.github.io/',
-        'Mehdi Sajjadi': 'https://msajjadi.com/',
-        'Noha Radwan': 'http://www2.informatik.uni-freiburg.de/~radwann/',
-        'Chiyu Jiang': 'https://www.maxjiang.ml/',
-        'Yiyi Liao': 'https://yiyiliao.github.io/',
-        'Marc Pollefeys': 'https://people.inf.ethz.ch/pomarc/',
-        'Michael Oechsle': 'https://moechsle.github.io/',
-        'Christian Reiser': 'https://creiser.github.io/',
-        'Lars Mescheder': 'https://scholar.google.de/citations?user=h2k1gL4AAAAJ&hl=de',
-        'Thilo Strauss': 'https://scholar.google.com/citations?user=VlymtLQAAAAJ&hl=en',
-        'Sebastian Nowozin': 'http://www.nowozin.net/sebastian/',
-        }
+    return {}
 
-def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Michael Niemeyer', add_links=True):
+def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Alexander Liniger', add_links=True):
     links = get_author_dict() if add_links else {}
     s = ""
     for p in persons:
@@ -99,7 +69,11 @@ def get_paper_entry(entry_key, entry):
         s += f"""<a href="{entry.fields['html']}" target="_blank">{entry.fields['title']}</a> <br>"""
 
     s += f"""{generate_person_html(entry.persons['author'])} <br>"""
-    s += f"""<span style="font-style: italic;">{entry.fields['booktitle']}</span>, {entry.fields['year']} <br>"""
+    if entry.original_type == "inproceedings":
+        s += f"""<span style="font-style: italic;">{entry.fields['booktitle']}</span>, {entry.fields['year']} <br>"""
+    elif entry.original_type == "article":
+        s += f"""<span style="font-style: italic;">{entry.fields['journal']}</span>, {entry.fields['year']} <br>"""
+        entry.fields['booktitle'] = entry.fields['journal']
 
     artefacts = {'html': 'Project Page', 'pdf': 'Paper', 'supp': 'Supplemental', 'video': 'Video', 'poster': 'Poster', 'code': 'Code'}
     i = 0
@@ -159,9 +133,19 @@ def get_talks_html():
         s+= get_talk_entry(k, bib_data.entries[k])
     return s
 
+def get_patents_html():
+    parser = bibtex.Parser()
+    bib_data = parser.parse_file('patent_list.bib')
+    keys = bib_data.entries.keys()
+    s = ""
+    for k in keys:
+        s+= get_paper_entry(k, bib_data.entries[k])
+    return s
+
 def get_index_html():
     pub = get_publications_html()
     talks = get_talks_html()
+    patents = get_patents_html()
     name, bio_text, footer = get_personal_data()
     s = f"""
     <!doctype html>
@@ -188,17 +172,23 @@ def get_index_html():
             <h3 class="display-4" style="text-align: center;"><span style="font-weight: bold;">{name[0]}</span> {name[1]}</h3>
             </div>
             <br>
-            <div class="col-md-8" style="">
+            <div class="col-md-9" style="">
                 {bio_text}
             </div>
-            <div class="col-md-4" style="">
-                <img src="assets/img/profile.jpg" class="img-thumbnail" alt="Profile picture">
+            <div class="col-md-3" style="">
+                <img src="assets/img/profile.png" class="img-thumbnail" alt="Profile picture">
             </div>
         </div>
         <div class="row" style="margin-top: 1em;">
             <div class="col-sm-12" style="">
                 <h4>Publications</h4>
                 {pub}
+            </div>
+        </div>
+        <div class="row" style="margin-top: 1em;">
+            <div class="col-sm-12" style="">
+                <h4>Patents</h4>
+                {patents}
             </div>
         </div>
         <div class="row" style="margin-top: 3em;">
