@@ -7,7 +7,7 @@ def get_personal_data():
     github = "alexliniger"
     linkedin = "alexander-liniger"
     bio_text = f"""
-                <p>I am a principal researcher at the Huawei Research Center in Zurich, working on machine learning and computer vision.
+                <p> I am a research scientist at the AI Institute in Zurich, developing the next generation intelligent robots.
                 </p>
 
                 <p>
@@ -16,7 +16,7 @@ def get_personal_data():
                 </p>
                 <p>
                     <span style="font-weight: bold;">Bio:</span>
-                    I studied Mechanical Engineering at ETH Zurich, where I got my BSc and MSc in 2010 and 2013 respectively. In 2013 I started my PhD at the Automatic Control Lab at ETH Zurich under the supervision of John Lygeros, where I was working on safe and game theoretic motion planning for autonomous driving and autonomous racing. After finishing my PhD in 2018, I first worked as a PostDoc at the Automatic Control Lab before joining the Computer Vision Lab (CVL) at ETH Zurich in Luc Van Gool's group in 2019. During my time at CVL, I was working within the TRACE Toyota autonomous driving project, focusing on scene understanding for autonomous driving as well as imitation and reinforcement learning. During my time at CVL, I also started the lecture <a href="https://trace.ethz.ch/teaching/index.html" target="_blank"> Deep Learning for Autonomous Driving </a> together with Dengxin Dai, which we were teaching for three years with great success. In 2021 I joined Zurich Huawei Research as a Principal Researcher. 
+                    I studied Mechanical Engineering at ETH Zurich, where I got my BSc and MSc in 2010 and 2013 respectively. In 2013 I started my PhD at the Automatic Control Lab at ETH Zurich under the supervision of John Lygeros, where I was working on safe and game theoretic motion planning for autonomous driving and autonomous racing. After finishing my PhD in 2018, I first worked as a PostDoc at the Automatic Control Lab before joining the Computer Vision Lab (CVL) at ETH Zurich in Luc Van Gool's group in 2019. During my time at CVL, I was working within the TRACE Toyota autonomous driving project, focusing on scene understanding for autonomous driving as well as imitation and reinforcement learning. During my time at CVL, I also started the lecture <a href="https://trace.ethz.ch/teaching/index.html" target="_blank"> Deep Learning for Autonomous Driving </a> together with Dengxin Dai, which we were teaching for three years with great success. From 2021 to 2024 I was a Principal Researcher in the computer vision team at the Huawei Research Center in Zurich. The work spanned from research into new camera sensors to shipping new algorithms to flag ship products. In 2024 I joined the newly formed Zurich office of the AI Institute (aka Boston Dynamics AI Institute), as part of the perception team.
                 </p>
                 <p>
                     <a href="https://alexliniger.github.io/assets/pdf/CV_Alexander_Liniger.pdf" target="_blank" style="margin-right: 15px"><i class="fa fa-address-card fa-lg"></i> CV</a>
